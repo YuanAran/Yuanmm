@@ -50,11 +50,6 @@ public class MergeSort {
     }
     public static void main(String[] args) {
         int[] a={32,56,12,68,55,49,14};
-//        int[] b=new int[4];
-//        System.arraycopy(a,3,b,0,4);
-//        for(int i:b){
-//            System.out.println(i);   输出 68，55，49，14
-//        }
         mergeSort(a,0,a.length-1);
         for(int i:a){
             System.out.println(i);
